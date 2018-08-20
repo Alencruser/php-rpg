@@ -9,7 +9,7 @@ Class Vegetable extends Product {
 		$this->_expiresAt=$b;
 	}
 	public function isFresh(){
-		if(date_diff($this->_expiresAt,date("Y-m-d"))>1){
+		if(strtotime($this->_expiresAt)-strtotime(date("Y-m-d"))>=0){
 			return true;
 		}else {
 			return false;

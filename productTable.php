@@ -26,7 +26,11 @@ $products=require "products.php";
 					echo $products[$i]->try();
 				}  ?></td>
 				<td><?php if($i<2){
-					echo $products[$i]->isFresh(); 
+					if($products[$i]->isFresh()){
+					echo "Frais"; 
+				}else {
+					echo "Pas frais";
+				}
 				}?></td>
 			</tr>
 		<?php } ?>
