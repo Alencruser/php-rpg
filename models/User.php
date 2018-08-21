@@ -9,13 +9,13 @@ Class User {
 		$this->_createdAt=$c;
 	}
 	public function id(){
-		echo $this->_id;
+		return $this->_id;
 	}
 	public function email(){
-		echo $this->_email;
+		return $this->_email;
 	}
 	public function date(){
-		echo $this->_createdAt;
+		return $this->_createdAt;
 	}
 }
 

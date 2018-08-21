@@ -1,15 +1,3 @@
 <?php 
-$users=require_once __DIR__."/data/users.php";
-$products=require_once __DIR__."/data/products.php";
+include __DIR__."/views/shopping.php";
  ?>
- <!DOCTYPE html>
- <html>
- <head>
- 	<title></title>
- </head>
- <body>
- <select>
- 	
- </select>
- </body>
- </html>
