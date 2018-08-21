@@ -1,6 +1,6 @@
 <?php 
-require "Vegetable.php";
-require "Cloth.php";
+require __DIR__."/../models/Vegetable.php";
+require __DIR__."/../models/Cloth.php";
 
 $legume1 = new Vegetable(1,"Carotte",2,"Denis","2018-07-19");
 $legume2 = new Vegetable(2,"Aubergine",5,"Arthur","2018-09-22");

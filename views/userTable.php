@@ -1,5 +1,5 @@
 <?php 
-$users = require('users.php');
+$users = require __DIR__.'/../data/users.php';
 ?>
 <!DOCTYPE html>
 <html>
