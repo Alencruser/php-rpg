@@ -6,5 +6,4 @@ return [
   $client1,
   $client2
 ];
-
  ?>
